@@ -1,45 +1,12 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
-:root{
-    --main-font: "Inter-Variable";
-    --accent-font: "PressStart2P", "fantasy";
-    --bg-color: #fff;
-    --themes-main-color: #000;
-    --card-title-weight: 700;
-    --card-text-weight: 400;
-    --font-wdht: "wght" 400;
-    --font-wdht-b: "wght" 700;
-    --background-image-light: repeating-linear-gradient(
-        90deg, 
-        #d3d3d3 0px,
-        #d3d3d3 2px,
-        transparent 2px,
-        transparent 4px
-    ),
-    repeating-linear-gradient(
-        0deg, 
-        #d3d3d3 0px,
-        #d3d3d3 2px,
-        transparent 2px,
-        transparent 4px
-    ),
-    linear-gradient(0deg, #1a1a1a 0.01%, #e7e7e7 100%);
-
-    --background-image-dark: repeating-linear-gradient(
-        90deg,
-        #000 0px,
-        #000 2px,
-        transparent 2px,
-        transparent 4px
-    ),
-    repeating-linear-gradient(
-        0deg,
-        #000 0px,
-        #000 2px,
-        transparent 2px,
-        transparent 4px
-    ),
-    linear-gradient(0deg, #007f0c 0.01%, #004306 100%);
-    
-    --heart-color: #FF0000;
-    --heart_counter: var(--themes-main-color) ;
+:root {
+  --themes-main-color: #000;
+  --background-gradient-one: #d3d3d3;
+  --background-gradient-two: #e7e7e7, #1a1a1a;
+  --bg-color: #fff;
+  --button-hover-color: #fff;
+  --heart-color: #f00;
+  --label-shadow: var(--bg-color);
+  --font-wdht: "wght" 400;
+  --font-wdht-b: "wght" 700;
 }
